@@ -1,8 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'zipkin-tracer', :git => 'git@github.com:mszenher/zipkin-tracer.git', :require => 'zipkin-tracer', :tag => 'v0.4.0'
+gem 'zipkin-tracer'
 gem 'thin'
-gem 'faraday'
+gem 'faraday', '~> 0.8'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
